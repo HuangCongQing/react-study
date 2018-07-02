@@ -1,6 +1,7 @@
 # react-study
 React学习和开发
 
+**学习新技术，无非就是看官方文档，加以延展，最后融会贯通**
 
 * [英文官网文档](https://reactjs.org/docs/getting-started.html)
 

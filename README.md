@@ -1,6 +1,13 @@
 # react-study
 React学习和开发
 
+
+* [英文官网文档](https://reactjs.org/docs/getting-started.html)
+
+* [入门教程- React - React 中文文档](https://doc.react-china.org/tutorial/tutorial.html)
+
+
+
 ### Documentation
 
 ### Examples

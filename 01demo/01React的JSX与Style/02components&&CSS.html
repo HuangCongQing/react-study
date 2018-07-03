@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8" />
     <title>Hello World</title>
-    <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
-    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+<script src="https://cdn.bootcss.com/react/15.4.2/react.min.js"></script>
 
-    <!-- Don't use this in production: -->
-    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+<script src="https://cdn.bootcss.com/react/15.4.2/react-dom.min.js"></script>
+
+<script src="https://cdn.bootcss.com/babel-standalone/6.22.1/babel.min.js"></script>
     <style>
         .color{
             color: red;
@@ -30,15 +30,16 @@ style={styleOBJ}
             <div id="root"></div>
 <!-- <div id="container"></div> -->
     <script type="text/babel">
-        // var Hello = React.createClass({ // 自定义
-        //     render: function () {
-        //         return <div> Hello, {this.props.title}</div>
-        //     }
-        // })
+        var Hello = React.createClass({ // 自定义
+            render: function () {
+                return <div> Hello, {this.props.title}</div>
+            }
+        })
         ReactDOM.render(
-            // <Hello title="Mr" />
-            // <h2 className="color">Hello, world!</h2>,
-            <h1 style={{color: "red"}}>Hello, world!</h1>,
+            <div>
+            <Hello title="Mr" />
+            <h1 style={{color: "red"}}>Hello, world!</h1>
+            </div>,
             document.getElementById('root') 
         );
         // ducunment.geetElementById('container');

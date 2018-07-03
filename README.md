@@ -7,6 +7,30 @@ React学习和开发
 
 * [入门教程- React - React 中文文档](https://doc.react-china.org/tutorial/tutorial.html)
 
+### Introduce
+
+* 什么是React
+    * 用来构建UI的JavaScript库
+    * React不是MVC库，仅仅是视图层（V）的库
+* 特点
+    * 1 使用 **JSX语法 创建组件，实现组件化开发，为函数式的 UI 编程方式打开了大门
+    * 2 性能高的让人称赞：通过**diff算法** 和 **虚拟DOM** 实现视图的高效更新
+* 重点内容
+    * JSX
+    * props和state
+    * style样式
+    * 生命周期（mounting，updating，unmounting）
+    * 事件绑定中的this
+    * react-router
+    * Redux
+
+
+
+
+
+
+
+
 
 
 ### Documentation

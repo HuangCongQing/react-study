@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Hello World</title>
+<script src="https://cdn.bootcss.com/react/15.4.2/react.min.js"></script>
+
+<script src="https://cdn.bootcss.com/react/15.4.2/react-dom.min.js"></script>
+
+<script src="https://cdn.bootcss.com/babel-standalone/6.22.1/babel.min.js"></script>
+    <style>
+        .color{
+            color: red;
+        }
+    </style>
+</head>
+
+<!-- CSS 用className命名
+内联样式用{{}}加字符串   style={{color:"red"}} 
+
+类似于styleOBJect = {
+    color：'red '
+}
+style={styleOBJ}
+
+-->
+
+<body>
+            <div id="root"></div>
+
+    <script type="text/babel">
+      
+        ReactDOM.render(
+         
+            <h1 style={{color: "red"}}>Hello, world!</h1>,
+            document.getElementById('root') 
+        );
+        componentWillMount:function () {
+            alert('Will');
+        };
+        componentDidMount:function () {
+            alert('Did');
+        }
+
+    </script>
+   
+</body>
+
+</html>

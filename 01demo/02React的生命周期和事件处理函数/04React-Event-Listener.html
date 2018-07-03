@@ -52,7 +52,7 @@
         }); 
 //  自制标签TestInputComponent
         var TestInputComponent = React.createClass({ 
-            getInitialState:function(){ 
+            getInitialState:function(){ // 初始化一个state
                 return{ inputContent:'' } 
             }, 
             changeHandler:function(event){
@@ -62,17 +62,15 @@
             }, 
         render:function(){
             return(
-
             <div>
                 <input type="text" onChange={this.changeHandler}/>
                 <span>{this.state.inputContent}</span>
             </div>
-
             ); 
         } 
         }); 
-        
-        ReactDOM.render(
+ // render(element, documentContainer)
+        ReactDOM.render(       
 
         <div>
             <TestClickComponent/>

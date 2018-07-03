@@ -27,7 +27,7 @@
     <script type="text/babel">
 //  自制标签TestClickComponent
         var TestClickComponent=React.createClass({ 
-            handleClick:function(event){ 
+            handleClick:function(event){ // 定义一个事件
                 var tipE=ReactDOM.findDOMNode(this.refs.tip); 
                 if(tipE.style.display==='none'){
                     tipE.style.display='inline'; 

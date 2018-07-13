@@ -43,7 +43,9 @@ React学习和开发
 
 
 
-
+### Tips
+* Dont forgit two node version
+![image.png](https://upload-images.jianshu.io/upload_images/4340772-d20250f463b92240.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
 

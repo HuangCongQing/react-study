@@ -24,9 +24,11 @@ React学习和开发
 
 *  前提安装node和npm
 * npm 安装 create-react-app工具
+
 `npm install -g create-react-app`
 
 * 使用命令创建新的react项目
+
 `create-react-app demo01`
 
 

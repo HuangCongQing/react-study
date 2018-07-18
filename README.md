@@ -31,6 +31,10 @@ React学习和开发
 
 `create-react-app demo01`
 
+* 运行
+
+`cd demo01`
+`npm start`
 
 ### Introduce
 

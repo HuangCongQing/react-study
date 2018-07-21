@@ -3,6 +3,8 @@ React学习和开发
 
 @ [ChungKing](https://github.com/HuangCongQing/react-start)，若fork或star请注明来源
 
+此版本：[V16.4](https://reactjs.org/versions)
+
 **学习新技术，无非就是看官方文档，加以延展，最后融会贯通**
 
 * [英文官网文档](https://reactjs.org/docs/getting-started.html)
@@ -16,7 +18,7 @@ React学习和开发
 
 
 * [00没有搭建脚手架，引用cdn初步学习React语法](./00demo)
-* [01引用CDN，掌握React脉络](./01create-react-app)
+* [01React脉络](./01create-react-app)
 * []()
 * []()
 * []()

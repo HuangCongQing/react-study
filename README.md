@@ -13,7 +13,7 @@ React学习和开发
 
 ### Files
 
-* 简书： https://www.jianshu.com/writer#/notebooks/27414069/notes/31105942
+
 
 * [00没有搭建脚手架，引用cdn初步学习React语法](./00demo)
 * [01引用CDN，掌握React脉络](./01create-react-app)

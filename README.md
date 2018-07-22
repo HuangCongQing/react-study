@@ -3,7 +3,7 @@ React学习和开发
 
 @ [ChungKing](https://github.com/HuangCongQing/react-start)，若fork或star请注明来源
 
-此版本：[V16.4](https://reactjs.org/versions)
+於2018年7月21日，代码所用版本：[V16.4](https://reactjs.org/versions)
 
 **学习新技术，无非就是看官方文档，加以延展，最后融会贯通**
 

@@ -11,6 +11,9 @@ React学习和开发
 
 * [入门教程- React - React 中文文档](https://doc.react-china.org/tutorial/tutorial.html)
 
+* [React入门看这篇就够了](https://segmentfault.com/a/1190000012921279)
+
+
 * 线上库文件：https://cdnjs.com/（可能需要随时更新）
 
 ### Files

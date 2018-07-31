@@ -38,6 +38,9 @@
 ### 分述之
 
 ### 1.constructor
+
+* [*react*中*constructor*( )和super( )的具体含义](https://www.baidu.com/link?url=GJW2N1C1l_u_vRefgZqyieFebV9NxYGyr9Kb7nS2zTRcf6QGM8kQ4C2432r_h61bF5k5zqCYxmKdQlm0HTg_V93cDnxg_je1tYHRphWcWAu&wd=&eqid=c8cf29c5000284b0000000045b5fffb4)
+
 * react组件的构造函数在挂载之前被调用。
 * 只要组件存在constructor,就必要**先写super**,否则this指向会错误
 先在添加其他内容**前，调用super(props)**，用来**将父组件传来的props绑定到这个类**中，使用this.props将会得到

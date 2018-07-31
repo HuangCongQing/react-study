@@ -47,7 +47,7 @@ class IsThis extends Component {
             </div>
 
              <div>
-                <button onClick={ this.handleClick2 }>Say Hello</button>
+                <button onClick={ this.handleClick2 }>匿名函数ES6</button>
             </div>
 
           </div>

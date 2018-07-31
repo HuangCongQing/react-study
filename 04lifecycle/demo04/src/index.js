@@ -5,17 +5,18 @@ import App from './App';
 import Life from './Life'
 import registerServiceWorker from './registerServiceWorker';
 
-// ReactDOM.render( 
-// <div>
-//     < App/> 
-//     <Life/>
-// </div>,
-// document.getElementById('root'));
-// registerServiceWorker();
+constructor(props,context) {
+    super(props,context);// 在内部可以使用props和context
+    this.state = {
+        color: '#CCC'
+      };
+    console.log(this);
+    console.log(this.props);
+    console.log(this.state);
+}
 ReactDOM.render(
     <div>
         < App />
-        <Life/>
     </div>
     ,
     document.getElementById('root'));
